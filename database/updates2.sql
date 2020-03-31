@@ -1,0 +1,3 @@
+INSERT INTO `kpos_modules` (`module_id`, `name_lang_key`, `desc_lang_key`, `sort`, `icons`) VALUES ('overdues', 'module_overdues', 'module_overdues_desc', 80, '<i class="fa fa-file" style="font-size: 50px; color:#2B9EC4"></i>');
+INSERT INTO `kpos_permissions` (`permission_id`, `module_id`) VALUES ('overdues', 'overdues');
+INSERT INTO `kpos_grants` (`permission_id`, `person_id`) VALUES ('overdues', 1);

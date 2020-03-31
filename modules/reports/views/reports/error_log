@@ -1,0 +1,16 @@
+[26-Mar-2019 06:25:13 UTC] PHP Fatal error:  Using $this when not in object context in /home/cp515818/public_html/softreliance.com/loans_pro/modules/reports/views/reports/manage.php on line 1
+[08-Aug-2019 07:06:27 UTC] PHP Fatal error:  Call to undefined function form_open_multipart() in /home/cp515818/public_html/softreliance.com/loans_pro/modules/reports/views/reports/excel_import.php on line 2
+[08-Aug-2019 07:06:27 UTC] PHP Fatal error:  Call to undefined function form_open() in /home/cp515818/public_html/softreliance.com/loans_pro/modules/reports/views/reports/form.php on line 1
+[08-Aug-2019 07:06:27 UTC] PHP Fatal error:  Using $this when not in object context in /home/cp515818/public_html/softreliance.com/loans_pro/modules/reports/views/reports/manage.php on line 1
+[08-Aug-2019 07:21:48 UTC] PHP Fatal error:  Call to undefined function form_open() in /home/cp515818/public_html/softreliance.com/loans_pro/modules/reports/views/reports/form.php on line 1
+[08-Aug-2019 07:21:48 UTC] PHP Fatal error:  Call to undefined function form_open() in /home/cp515818/public_html/softreliance.com/loans_pro/modules/reports/views/reports/form.php on line 1
+[08-Aug-2019 07:21:48 UTC] PHP Fatal error:  Call to undefined function form_open() in /home/cp515818/public_html/softreliance.com/loans_pro/modules/reports/views/reports/form.php on line 1
+[08-Aug-2019 07:21:48 UTC] PHP Fatal error:  Using $this when not in object context in /home/cp515818/public_html/softreliance.com/loans_pro/modules/reports/views/reports/manage.php on line 1
+[08-Aug-2019 07:21:49 UTC] PHP Fatal error:  Using $this when not in object context in /home/cp515818/public_html/softreliance.com/loans_pro/modules/reports/views/reports/manage.php on line 1
+[08-Aug-2019 07:21:49 UTC] PHP Fatal error:  Call to undefined function form_open_multipart() in /home/cp515818/public_html/softreliance.com/loans_pro/modules/reports/views/reports/excel_import.php on line 2
+[08-Aug-2019 07:21:49 UTC] PHP Fatal error:  Using $this when not in object context in /home/cp515818/public_html/softreliance.com/loans_pro/modules/reports/views/reports/manage.php on line 1
+[08-Aug-2019 07:21:49 UTC] PHP Fatal error:  Call to undefined function form_open_multipart() in /home/cp515818/public_html/softreliance.com/loans_pro/modules/reports/views/reports/excel_import.php on line 2
+[08-Aug-2019 07:21:49 UTC] PHP Fatal error:  Call to undefined function form_open_multipart() in /home/cp515818/public_html/softreliance.com/loans_pro/modules/reports/views/reports/excel_import.php on line 2
+[08-Aug-2019 07:24:56 UTC] PHP Fatal error:  Call to undefined function form_open() in /home/cp515818/public_html/softreliance.com/loans_pro/modules/reports/views/reports/form.php on line 1
+[08-Aug-2019 07:24:56 UTC] PHP Fatal error:  Using $this when not in object context in /home/cp515818/public_html/softreliance.com/loans_pro/modules/reports/views/reports/manage.php on line 1
+[08-Aug-2019 07:24:56 UTC] PHP Fatal error:  Call to undefined function form_open_multipart() in /home/cp515818/public_html/softreliance.com/loans_pro/modules/reports/views/reports/excel_import.php on line 2

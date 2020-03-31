@@ -1,0 +1,12 @@
+{
+    "plugin": {	
+        "name":"reports",
+        "files": {
+            "controllers": ["/controllers/*"],
+            "models": ["/models/*"],
+	    "views": ["/views/reports/*"],
+            "language": ["/language/*"],
+            "js":[]
+        }  
+    }
+}

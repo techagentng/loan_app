@@ -1,0 +1,540 @@
+body {
+    font-family: "Lato", Arial !important;
+}
+
+#register_wrapper
+{
+    float:left;
+    width:65%;
+    font-family: 'Lato', Arial;
+    font-size:13px;
+      border-right: 1px solid #d3d3d3;
+}
+#mode_form
+{
+    position:relative;
+    /*background-color:#DDD;*/
+    /*padding: 8px 5px 8px 5px;*/
+}
+
+#show_suspended_sales_button
+{
+    /*
+    position:absolute;
+    top:3px;
+    right:4px;
+    */
+}
+
+#mode_form span
+{
+    font-weight:bold;
+}
+
+#add_item_form
+{
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  padding: 15px 30px;
+
+}
+
+#new_item_button_register
+{
+    position:absolute;
+    top:3px;
+    right:4px;
+}
+
+#add_item_form input
+{
+    border: 1px solid #ccc;
+    padding: 2px;
+    height: 45px;
+    font-size: 20px;
+
+}
+
+#item_label,#customer_label
+{
+    font-weight:bold;
+}
+
+#add_item_form label
+{
+    margin: 0px 5px 0px 5px;
+}
+
+#register {
+    font-size: 20px;
+}
+
+#register th
+{	
+    font-size: 15px;
+    text-align:center;
+}
+
+/*#register
+{
+        position:relative;
+        width:100%;
+        padding:0px;
+        border-collapse:collapse;	
+}
+
+#register th
+{	
+        background-color:#4386a1;
+        padding:5px;
+        text-align:center;
+        color:#FFFFFF;
+}
+
+#register td
+{
+        background-color:#EEEEEE;
+        padding:3px;
+        text-align:center;
+}*/
+
+#overall_sale
+{
+    float:right;
+    /*margin-left:4px;*/
+    background-color:#eee;
+    width:35%;
+    font-family:'Lato', Arial;
+    font-size:13px;
+
+}
+
+#sale_details
+{
+    position:relative;
+    width:100%;
+    font-size: 40px;
+}
+
+.table_payment_due {
+    font-size: 30px;
+}
+
+#finish_sale
+{
+    position:relative;
+}
+
+#payment_details
+{
+/*    float:left;
+    width:100%;
+    margin-top:5px;
+    border-top:2px solid #ddd;
+    background-color:#DDD;
+    margin-bottom:0px;
+    clear:both;
+    padding: 5px;*/
+}
+
+#Cancel_sale
+{
+    float:left;
+    width:100%;
+    margin-top:5px;
+    clear:both;
+}
+#suspended_sales_table
+{
+    width:100%;
+}
+
+#credit_card_form fieldset 
+{
+    overflow: auto;
+    border: 0;
+    margin: 0;
+    padding: 0; 
+}
+
+#credit_card_form fieldset div 
+{
+    float: left; 
+}
+
+#credit_card_form fieldset.centered div 
+{
+    text-align: center; 
+}
+
+#credit_card_form label 
+{
+    display: block;
+    margin-bottom: 5px; 
+}
+
+#credit_card_form input.text 
+{
+    border: 1px solid #bfbab4;
+    margin: 0 4px 8px 0;
+}
+
+.alert {
+    margin-bottom: 0 !important;
+}
+
+.highlight {
+    background-color: #eee;
+}
+
+.autocomplete-suggestions {
+    position: absolute;
+    max-height: 300px;
+    z-index: 9999;
+    border: 1px solid;
+    line-height: 40px;
+    display: block;
+    top: 109px;
+    left: 8px;
+    width: 926px;
+    background: white;
+    font-size: 32px;
+}
+
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+
+#top-bar .form-group {
+    text-align: center;
+}
+
+
+.row{
+    margin-right: 0!important; 
+}
+
+.big-control {
+    height: 50px !important;
+    font-size: 20px !important;
+}
+
+
+
+/* Custom CSS EJ */
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+
+}
+
+header {
+  overflow: hidden;
+  background: #eeeeee;
+  padding: 15px 0;
+}
+
+.btn.btn-danger.pull-right {
+    background: #e80a0a;
+}
+
+.admin-menu-item {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #646464;
+}
+
+.admin-menu-item img {
+    margin-bottom: 15px;
+}
+
+.admin-menu-item a {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #0d0d0d;
+  font-weight: bold;
+}
+
+.admin-menu-item a:hover, .admin-menu-item a:focus {
+    color: #ff5400;
+    text-decoration: none;
+}
+
+
+.admin-title {
+    margin-bottom: 85px;
+    line-height: 35px;
+    margin-top: 70px;
+}
+
+/* Sales */
+
+#top-bar {
+    background: #fff;
+    border-bottom: 2px solid #dadada;
+}
+
+.currency-amount-due {
+  text-align: right;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.div-customer-amount-pool {
+    background: #f2f2f2;
+    border-bottom: 2px solid #dadada;
+}
+
+.label-amount-due {
+  color: #454545;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+#sale_details {
+    background: #fff;
+}
+
+.bottom-total {
+    background: #1b1e27;
+    padding: 50px 0;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#btn-checkout {
+background: #00b796 url(images/cart-checkout.jpg) no-repeat left;
+  border: none;
+  width: 100%;
+  font-size: 50px;
+  font-weight: bold;
+  border-radius: 0;
+  text-align: right;
+  padding: 20px 30px;
+}
+
+#btn-checkout span {
+  display: block;
+  font-size: 20px;
+}
+
+#sale_details .left-txt {
+  font-size: 25px;
+  font-weight: bold;
+  color: #1b1e27;
+}
+
+#sale_details .right-txt {
+    font-size: 25px;
+    font-weight: bold;
+    color: #ff5400;
+    text-align: right;
+}
+
+.sub-list {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+#sale_details .table {
+    padding-top: 10%;
+}
+
+.cashier-footer {
+    background: #383838;
+    color: #c9c9c9;
+    padding: 30px 0;
+}
+
+.logout-button a {
+  background: none;
+  border: none;
+  color: #ffa800;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.time-bottom {
+  color: #c9c9c9;
+  font-size: 35px;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.logout-button {
+    text-align: right;
+      color: #ffa800;
+}
+
+.logout-button .fa {
+  font-size: 17px;
+  margin-right: 7px;
+}
+
+#reg-mode {
+  background: #f4f4f4 url(images/drop-icon.png) no-repeat right;
+  border: none;
+  box-shadow: none;
+  border-radius: 4px;
+      -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+::-webkit-input-placeholder {
+   color: #777777 !important;
+   font-weight: bold;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #777777 !important;  
+   font-weight: bold;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #777777 !important;  
+   font-weight: bold;
+}
+
+:-ms-input-placeholder {  
+   color: #777777 !important;  
+   font-weight: bold;
+}
+
+#customer {
+  background: #f4f4f4 url(images/search-icon.png) no-repeat 10px;
+  border: none;
+  box-shadow: none;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 15px;
+  padding-left: 35px;
+}
+
+#item {
+  background: transparent url(images/search-icon.png) no-repeat 10px;
+  border: none !important;
+  box-shadow: none;
+  font-weight: bold;
+  font-size: 15px;
+  padding-left: 35px !important; 
+}
+
+#mode_form, #select_customer_form {
+  margin-top: 25px;
+}
+
+label[for="reg-mode"], #customer_label {
+  font-size: 13px;
+  font-weight: bold;
+  color: #777c8b;
+  margin-top: 5px;
+}
+
+.cashier-footer .user-info {
+  font-size: 25px;
+  color: #c9c9c9;
+}
+
+.user-position {
+  font-size: 20px;
+  color: #848484;
+}
+
+.sales-menu {
+  width: 555px;
+  float: right;
+  margin-bottom: 0;
+  margin-right: -15px;
+}
+
+.sales-menu li {
+  list-style: none;
+  float: left;
+  width: 185px;
+  text-align: center;
+  border-left: 1px solid #dfdfdf;
+}
+
+.sales-menu li a h4 {
+  font-weight: bold;
+  font-size: 21px;
+  color: #000;
+  margin: 5px 0;
+}
+
+.sales-menu li a:hover {
+  text-decoration: none;
+}
+
+.sales-menu .key-value {
+  color: #7e7e7e;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.new-acc .fa {
+  color: #ff9c00;
+  font-size: 30px;
+}
+
+.new-acc {
+  border-bottom: 3px solid #ff9c00;
+  padding: 10px 0;
+}
+
+.sales-menu li a:hover .new-acc {
+  background: #ff9c00;
+}
+
+.sales-menu li a:hover .new-acc h4, .sales-menu li a:hover .new-acc .key-value, .sales-menu li a:hover .new-acc .fa {
+  color: #fff;
+}
+
+.suspend-sale .fa {
+  color: #ff5400;
+  font-size: 30px;
+}
+
+.suspend-sale {
+  border-bottom: 3px solid #ff5400;
+  padding: 10px 0;
+}
+
+.sales-menu li a:hover .suspend-sale {
+  background: #ff5400;
+}
+
+.sales-menu li a:hover .suspend-sale h4, .sales-menu li a:hover .suspend-sale .key-value, .sales-menu li a:hover .suspend-sale .fa {
+  color: #fff;
+}
+
+.cancel-sale .fa {
+  color: #fff;
+  font-size: 30px;
+}
+
+.cancel-sale h4, .cancel-sale .key-value {
+  color: #fff !important;
+}
+
+.cancel-sale{
+  border-bottom: 3px solid #1b1e27;
+  padding: 10px 0;
+  background: #1b1e27;
+}
+
+.sales-menu li a:hover .cancel-sale {
+  background: #e80a0a;
+  border-bottom: 3px solid #e80a0a;
+}
+
+.sales-menu li a:hover .cancel-sale h4, .sales-menu li a:hover .cancel-sale .key-value, .sales-menu li a:hover .cancel-sale .fa {
+  color: #fff;
+}
